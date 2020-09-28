@@ -16,3 +16,11 @@
 
 #define PRODUCT_ID 0xE851 // E8.5 Hotswap
 #define PRODUCT E8.5 Hotswap PCB
+
+#define BACKLIGHT_PIN B6
+#define BACKLIGHT_BREATHING
+#define BACKLIGHT_LEVELS 6
+
+// these two features are disabled for Link Time Optimization to work
+#define NO_ACTION_MACRO
+#define NO_ACTION_FUNCTION
