@@ -20,6 +20,8 @@
 #define BACKLIGHT_PIN B6
 #define BACKLIGHT_BREATHING
 #define BACKLIGHT_LEVELS 6
+#define FORCE_NKRO
+#define BACKLIGHT_CAPS_LOCK
 
 // these two features are disabled for Link Time Optimization to work
 #define NO_ACTION_MACRO
